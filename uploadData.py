@@ -6,7 +6,7 @@ client = pymongo.MongoClient("mongodb+srv://polar_project_database:polar_project
 
 # Select the database and collection to use
 db = client["database1"]
-collection = db["Pole_vault"] #this defines that all the new updates will end up in "Sprints" section
+collection = db["Sprints"] #this defines that all the new updates will end up in "Sprints" section
 
 # Pole_vault
 # Hurdles
