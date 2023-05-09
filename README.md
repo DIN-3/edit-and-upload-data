@@ -37,16 +37,20 @@ Now you have a folder, which has all the data in CSV-files, and it should look s
 ![image](https://github.com/DIN-3/edit-and-upload-data/assets/70267456/fa807c8f-bd47-4c8c-9245-71ddf81f3d67)
 
 Here we must edit the "editData.py"-file, again by right-clicking and selecting open with -> Notepad.
-Go and edit the "path/to/CSV/files"-part of the code to the folder, where you have created your CSV-files.
+Go and edit the "path/to/CSV/files"-part of the code to the path to the folder, where you have created your CSV-files.
 
 ![image](https://github.com/DIN-3/edit-and-upload-data/assets/70267456/ae135de7-6508-4f1d-a961-aa662c77232f)
 
 Run this by right-clicking the "editData.py", and Open with -> Python.
+This code will edit the existing CSV-files in your folder, which means that it wont be creating any unnecessary CSV-files.
+
 As a last thing we must edit "uploadData.py"-file and run it after editing it.
 Right click, open with -> Notepad and you will see a file which looks like this.
 
+![image](https://github.com/DIN-3/edit-and-upload-data/assets/70267456/375504a9-8f5a-4068-abed-af429466e761)
 
-
+Edit the **Highlighted** part of the code, and give it path the to folder address, where you have your CSV-files.
+Run the "uploadData.py"-file by right-clicking and opening with Python.
 
 
 
